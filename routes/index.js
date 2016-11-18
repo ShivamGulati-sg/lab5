@@ -11,8 +11,8 @@ var flash = require('connect-flash');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', {
-    title: 'Lesson 8',
-    message: 'Passport Authentication (Local) - Part 1',
+    title: 'Welcome',
+    message: 'This webiste connects with a noSQL database and allows admin and public access.It allows admin users to Update, add and delete values from database. Feel free to register.',
     user: req.user
   });
 });
